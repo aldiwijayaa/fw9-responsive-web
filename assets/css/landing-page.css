@@ -19,3 +19,100 @@
   line-height: 40px;
   color: #6379F4;
 }
+.description_box span {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 93px;
+}
+
+.description_box .blue {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 93px;
+  color: #6379F4;
+}
+
+.description p {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #3A3D42;
+}
+
+
+.button_header button {
+  background: #6379F4;
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+}
+
+.button_header button p {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 8px;
+  text-align: center;
+  padding: 0px 55px;
+  color: #FFFF;
+}
+
+.banner_box {
+  position: absolute;
+  width: 710px;
+  height: 658px;
+  left: 730px;
+  top: 0px;
+}
+
+.banner_box1 {
+  position: absolute;
+  width: 766.52px;
+  height: 607px;
+  left: 732px;
+  top: 108px;
+}
+
+.banner_phone {
+  position: absolute;
+  width: 439px;
+  height: 846px;
+  left: 851px;
+  top: 118px;
+}
+.button-r {
+  display: flex;
+  position: absolute;
+  left: 70.83%;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.button_login button {
+  border: 1px solid #FFFF;
+  border-radius: 11px;
+  padding: 0px 34px;
+  background: #6379F4;
+}
+
+.button_signUp button {
+  border: 1px solid #FFFF;
+  border-radius: 11px;
+  padding: 0px 34px;
+  background: #6379F4;
+}
+
+.button_login button p {
+  color: #FFFF;
+}
+
+.button_signUp button p {
+  color: #FFFF;
+}
+
+
