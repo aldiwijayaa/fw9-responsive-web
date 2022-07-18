@@ -1,118 +1,182 @@
-.header {
+.headers {
+  z-index: 2;
   display: flex;
-  width: 100%;
+  justify-content: space-between;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 31.5px;
 }
 
-.box_left {
-  width: 50%;
-}
-
-.box_right {
-  width: 50%;
-}
-
-.tittle_app p {
+.title{
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 29px;
   line-height: 40px;
-  color: #6379F4;
 }
-.description_box span {
+
+.togle {
+  z-index: 3;
+  margin-top: 22.5;
+  width: 50%;
+  justify-content: flex-end;
+  display:flex;
+  font-size: 18px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.login {
+  width: 115px;
+  height: 43px;
+  border: 5px solid white;
+  color: white;
+  margin-right: 30px;
+  border-radius: 12px;
+  text-align: center;
+  padding-bottom: 15px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.signup {
+  width: 115px;
+  height: 43px;
+  background-color: white;
+  border: 5px solid white;
+  color: #6379F4;
+  text-align: center;
+  padding-bottom: 15px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.tryit{
+  margin-left: 75px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  width: 168px;
+  height: 52px;
+  background-color: #6379F4;
+  border: 5px solid white;
+  color: white;
+  margin-right: 30px;
+  border-radius: 12px;
+  text-align: center;
+  padding-bottom: 15px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  flex-direction: column;
+  position: relative;
+  font-family: 'Nunito Sans';
+  margin-bottom: 200px;
+}
+
+.main2{
+  margin-top: 1044px;
+  text-align: center;
+  height: 759px;
+  font-family: 'Nunito Sans';
+  background-color: rgba(71, 58, 209, 0.06);
+}
+
+.welcome{
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 800;
-  font-size: 34px;
+  font-size: 60px;
   line-height: 93px;
 }
 
-.description_box .blue {
+.card{
+  margin-top: 70px; 
+  display:flex; 
+  margin-left: 150px; 
+  margin-right: 150px;
+}
+
+.main3{
+  margin-top: 200px;
+  text-align: left;
+  display: grid;
+  row-gap: 50px;
+  height: 535px;
+  flex-direction: column;
+  position: relative;
+  font-family: 'Nunito Sans';
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.main4{
+  background: rgba(71, 58, 209, 0.06);
+}
+
+.point{
   font-family: 'Nunito Sans';
   font-style: normal;
-  font-weight: 800;
-  font-size: 35px;
-  line-height: 93px;
-  color: #6379F4;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  color: #3A3D42;
 }
 
-.description p {
+.pPoint{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.saying{
+  padding: 150px 120px 150px 120px;
+  text-align: center;
+}
+
+.review{
+  padding: 30px 40px 30px 50px;
+  margin-left: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+}
+
+.nameRev{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.desc{
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 31px;
-  color: #3A3D42;
 }
 
-
-.button_header button {
-  background: #6379F4;
-  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
-  border-radius: 12px;
+.footer{
+  color: rgba(239, 239, 239, 0.75);
+  padding: 80px 150px 80px 150px;
+  background-color: #6379F4;
 }
-
-.button_header button p {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-size: 18px;
-  line-height: 8px;
-  text-align: center;
-  padding: 0px 55px;
-  color: #FFFF;
-}
-
-.banner_box {
-  position: absolute;
-  width: 710px;
-  height: 658px;
-  left: 730px;
-  top: 0px;
-}
-
-.banner_box1 {
-  position: absolute;
-  width: 766.52px;
-  height: 607px;
-  left: 732px;
-  top: 108px;
-}
-
-.banner_phone {
-  position: absolute;
-  width: 439px;
-  height: 846px;
-  left: 851px;
-  top: 118px;
-}
-.button-r {
-  display: flex;
-  position: absolute;
-  left: 70.83%;
-  justify-content: space-between;
-  width: 20%;
-}
-
-.button_login button {
-  border: 1px solid #FFFF;
-  border-radius: 11px;
-  padding: 0px 34px;
-  background: #6379F4;
-}
-
-.button_signUp button {
-  border: 1px solid #FFFF;
-  border-radius: 11px;
-  padding: 0px 34px;
-  background: #6379F4;
-}
-
-.button_login button p {
-  color: #FFFF;
-}
-
-.button_signUp button p {
-  color: #FFFF;
-}
-
-
